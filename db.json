@@ -1,0 +1,34 @@
+{
+    "produit": [
+    {
+      "id": 1,
+      "nom": "iPhone 11",
+      "capacité": "64Go",
+      "couleur": "Noir",
+      "nombreObjectif": 3
+      
+    },
+    {
+      "id": 2,
+      "nom": "Galaxy S10",
+      "capacité": "128Go",
+      "couleur": "Bleu",
+      "nombreObjectif": 4
+      
+    }
+  ],
+  "marque": [
+    {
+      "id": 1,
+      "nom": "Apple",
+      "siége social": "Cupertino",
+      "chiffre Affaire": 46530000000
+    },
+    {
+      "id": 1,
+      "nom": "Samsung Electronics",
+      "siége social": "Séoul",
+      "chiffre Affaire": 234875400000000
+    }
+  ]
+}
