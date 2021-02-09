@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "7ed31f32-1bc9-4fee-ab02-623dade56eda",
+		"name": "ff-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "produit",
+			"item": [
+				{
+					"name": "produit",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nom\": \"iphone 12 pro MAx\",\n    \"capacité\": \"512Go\",\n    \"couleur\": \"Bleu\",\n    \"nombreObjectif\": 4\n      \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produit 2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/produit/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produit 2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {  \n       \"nom\": \"Galaxy S21\",\n      \"capacité\": \"256Go\",\n      \"couleur\": \"Noir\",\n      \"nombreObjectif\": 4\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produit/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produit",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "marque",
+			"item": [
+				{
+					"name": "marque",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "marque",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nom\": \"iphone 12 pro MAx\",\n    \"capacité\": \"512Go\",\n    \"couleur\": \"Bleu\",\n    \"nombreObjectif\": 4\n      \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "marque 2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/produit/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "marque 2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {  \n  \"nom\": \"Samsung \",\n      \"siége social\": \"Séoul\",\n      \"chiffre Affaire\": 234875400000000\n   \n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/marque/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"marque",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "marque",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/produit",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

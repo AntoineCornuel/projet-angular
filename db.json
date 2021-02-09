@@ -1,20 +1,25 @@
 {
-    "produit": [
+  "produit": [
     {
       "id": 1,
       "nom": "iPhone 11",
       "capacité": "64Go",
       "couleur": "Noir",
       "nombreObjectif": 3
-      
     },
     {
-      "id": 2,
-      "nom": "Galaxy S10",
-      "capacité": "128Go",
+      "nom": "Galaxy S21",
+      "capacité": "256Go",
+      "couleur": "Noir",
+      "nombreObjectif": 4,
+      "id": 2
+    },
+    {
+      "nom": "iphone 12 pro MAx",
+      "capacité": "512Go",
       "couleur": "Bleu",
-      "nombreObjectif": 4
-      
+      "nombreObjectif": 4,
+      "id": 3
     }
   ],
   "marque": [
@@ -25,10 +30,16 @@
       "chiffre Affaire": 46530000000
     },
     {
-      "id": 1,
+      "nom": "Samsung ",
+      "siége social": "Séoul",
+      "chiffre Affaire": 234875400000000,
+      "id": 2
+    },
+    {
       "nom": "Samsung Electronics",
       "siége social": "Séoul",
-      "chiffre Affaire": 234875400000000
+      "chiffre Affaire": 234875400000000,
+      "id": 3
     }
   ]
 }
